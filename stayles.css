@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+Body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*header Start*/
+header {
+    height: 100vh;
+    background-image: url(svg/imag\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover; background-position: center;
+    
+    
+}
+.gg {
+    border-radius: 50px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+}
+
+#navbar img {
+    width: 50px;
+    margin-left: 150px;
+    margin-right: 20px;
+   
+    
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+    margin: 30px;
+}
+#navbar ul li a {
+    padding: 10px 30px;
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+header .content h1 {
+    font-size: 35px;
+    color: aliceblue;
+}
+header .content p {
+    margin: 20px 0 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+header .content h1 span {
+    color: #e4b95b;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+header *{
+    z-index: 10;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+.btn-primary {
+    color: aliceblue;
+    border: 1px solid #fff;
+}
+.btn-primary:hover{
+    background-color: #e4b95b;
+}
+/*header End*/
+/*meadia Stard*/
+@media only screen and (max-width: 1080px) {
+    header .content h1 {
+        font-size: 20px;
+    }
+    header .content p {
+        font-size: 13px;
+    }
+    @media only screen and (max-width: 884px) {
+    header .content h1 {
+        font-size: 20px;
+    }
+    header .content p {
+        font-size: 10px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 10px;
+    padding: 10px 15px;
+}
+
+}
+}
+@media only screen and (max-width: 614px) {
+    header .content h1 {
+        font-size: 20px;
+    }
+    header .content p {
+        font-size: 10px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 10px;
+    padding: 10px 15px;
+}
+#navbar img {
+    margin: 50px;
+}
+}
+@media only screen and (max-width: 534px) {
+    header {
+        height: 100vh;
+    }
+    header .content h1 {
+        font-size: 15px;
+    }
+    header .content p {
+        font-size: 8px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 10px;
+    padding: 15px 5px;
+    position: relative;
+    left: -80px;
+    text-align: center;
+
+}
+#navbar img {
+    position: relative;
+    top: -30px;
+    left: 30%;
+    margin: 50px;
+}
+}
+@media only screen and (max-width: 330px) {
+    header {
+        height: 100vh;
+    }
+    header .content h1 {
+        font-size: 12px;
+    }
+    header .content p {
+        font-size: 6px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 10px;
+    padding: 15px 5px;
+    position: relative;
+    left: -105px;
+    text-align: center;
+
+}
+#navbar img {
+    position: relative;
+    top: -30px;
+    left: 30%;
+    margin: 50px;
+}
+}
+@media only screen and (max-width: 288px) {
+    header {
+        height: 100vh;
+    }
+    header .content h1 {
+        font-size: 10px;
+    }
+    header .content p {
+        font-size: 5px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 7px;
+    padding: 15px 5px;
+    position: relative;
+    left: -125px;
+    text-align: center;
+
+}
+#navbar img {
+    position: relative;
+    top: -30px;
+    left: 30%;
+    margin: 50px;
+}
+}
+@media only screen and (max-width: 206px) {
+    header {
+        height: 100vh;
+    }
+    header .content h1 {
+        font-size: 10px;
+    }
+    header .content p {
+        font-size: 7px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 7px;
+    padding: 15px 5px;
+    position: relative;
+    left: -140px;
+    text-align: center;
+
+}
+#navbar img {
+    position: relative;
+    top: -30px;
+    left: 22%;
+    margin: 50px;
+}
+}
+@media only screen and (max-width: 240px) {
+    header {
+        height: 160vh;
+    }
+    header .content h1 {
+        font-size: 12px;
+    }
+    header .content p {
+        font-size: 8px;
+        font-weight: 100;
+    }
+#navbar ul li a {
+    font-size: 8px;
+    padding: 15px 5px;
+    position: relative;
+    left: -135px;
+    text-align: center;
+
+}
+#navbar img {
+    position: relative;
+    top: -30px;
+    left: 30%;
+    margin: 50px;
+}
+}
+/*Header-Contener End*/
+/*Abute Stard*/
+#Abute {
+    height: auto;
+    margin: 50px;
+
+
+}
+.Abute2 {
+    text-align: center;
+}
+.Abute2 h2 {
+    margin: 20px;
+}
+.Abute2 p {
+    font-size: 20px;
+    
+}
+
+/*Abute End */
+/*Team Descor Start*/
+.imag1 {
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 100px;
+    
+}
+.imag2 {
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 100px;
+    
+}
+@media only screen and (max-width: 866px) {
+.imag1 {
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 10%;
+}
+.imag2 {
+     width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 10%;
+}
+
+}
+@media only screen and (max-width: 594px) {
+    .imag1 {
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 7%;
+}
+.imag2 {
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+    position: relative;
+    left: 7%;
+}
+}
+
+/*Team Descor End*/
